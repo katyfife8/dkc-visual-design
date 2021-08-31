@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Animations</title>
+
+</head>
+
+<body>
+  <nav>
+    <div class="wrapper">
+      <div class="nav-container">
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+        </ul>
+
+        <ul class="nav-links">
+
+          <li><a href="./images.html">Images</a></li>
+          <li><a href="./mockups.html">Mockups</a></li>
+          <li><a href="./animations.html">Animations</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="content-wrapper">
+    <main>
+      <h1>Animations</h1>
+      <section>
+        <h2>Kintsugi</h2>
+        <p>Created in Adobe Photoshop</p>
+
+
+        <img src="https://dkc2021.s3.eu-west-2.amazonaws.com/animations/kintsugi-animation.gif" width="600px"
+          height="600px" />
+        <p>Final animation: GIF, 1080 x 1080px, 968 KB</p>
+        <p>Presented at 600 x 600px</p>
+        <p><a href="https://dkc2021.s3.eu-west-2.amazonaws.com/animations/kintsugi-animation.psd">Download PSD
+            file</a>
+        </p>
+
+        <div class="image-summary">
+          <p>I sourced the image of a kintsugi bowl from a stock photography website and reduced the width to 1080px. I
+            used content-aware scale to extend the height to 1080px. I then duplicated the layer. I selected each
+            fragment
+            of the bowl in turn using the
+            quick select tool, outputting
+            each
+            to a new layer. I zoomed in to make the selection pixel-by-pixel to achieve the finish I wanted, and used
+            the
+            'smart radius' and 'decontaminate colors' functions, while contracting the edges by 2% in the select and
+            mask properties. I was left with the base
+            of the bowl, and used the spot healing brush tool on replace mode to
+            recreate the background where parts of the bowl had been cut. I added a layers for the advert heading,
+            summary
+            and logo. I created a kintsugi layer using part of the bowl and layered this on top of the text to create a
+            clipping mask – giving the text its kintsugi effect for the final frame.
+
+            I opened the timeline to create a frame animation and added a fragment, positioned using transform rotate,
+            to
+            each frame, so that they accumulate – the seventh frame is the bowl in its original form. The text, logo and
+            kintsugi text effect are added over the course of the final frames. I set each to 0.5 seconds and the
+            animation to loop once.
+
+
+          </p>
+          <p>I exported the image as a gif using 'Save for Web'. I reduced the colour paletter from 256 to 128 – I
+            wanted
+            to reduce the file size, but felt the gold's lustre was diminsihed with fewer colours than this.</p>
+        </div>
+
+      </section>
+      <section>
+        <h2>Candle</h2>
+        <p>Created in Adobe Photoshop</p>
+
+
+        <img src="https://dkc2021.s3.eu-west-2.amazonaws.com/animations/candle-animation.gif" width="600px"
+          height="600px" />
+        <p>Final animation: GIF, 800 x 800px, 6 MB</p>
+        <p>Presented at 600 x 600px</p>
+        <p><a href="https://dkc2021.s3.eu-west-2.amazonaws.com/animations/candle-animation.psd">Download PSD
+            file</a>
+        </p>
+        <div class="image-summary">
+          <p>Inspired by 'cinemagraphs' shared on our course, I was interested in making a smoother gif. This animation
+            was
+            conceived as an Instagram
+            advert for the festive season and
+            made by animating a still image, with the help of a tutorial.</p>
+
+          <p>I found an image of a ceramic/glass candle on a stock photography website. I was drawn to the warmth of
+            the image. The image was resized and then cropped to 1080 x 1080px. I added a logo as a layer to the
+            candle holder, coloured to match. I then added a text box for the headline and offer text in the brand
+            fonts, using the eyedropper tool to pick a text colour to match the candle's flame.</p>
+          <p>I used the quick selection tool to select most of the flame element and saved this to a new layer, with a
+            feather of one pixel to soften the edges. I used the paint brush tool, increasing the hardness to 50% and
+            picking a colour from the flame itself
+            using the eye dropper tool, and dabbed once over the candle flame to create a 'flame glow'. I set the
+            blending mode to soft light.
+            I then used the brush to dab each of the lights in the image’s background, with minor changes to the
+            colour and opacity for
+            each, and a blending mode of soft light.</p>
+          <p>I created a four-second video animation within the timeline panel, with a resolution of 50% and loop
+            playback. I
+            selected the flame layer and added a number of keyframes at intervals, moving the flame layer up or down
+            at each point. I copied the key frame at the start and pasted it to the end so that the loop's end-start
+            transition is as smooth as possible. I then set up keyframe points for each of the layers – moving each
+            'light glow' and changing the opacity at intervals. I wanted the text to 'flicker' with other elements of
+            the image, so added keyframes to alter the opacity at intervals.</p>
+          <p>Finally, I reduced the overall size to 800 x 800px and exported the image as a gif with 256 colours as I
+            wanted to preserve as much of the image's colour variation as possible.</p>
+          <p>I feel this animation would be greatly enhanced by audio of the crackle of a fire!</p>
+
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
