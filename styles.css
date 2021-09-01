@@ -64,11 +64,6 @@ a {
 
 }
 
-a:hover {
-cursor: pointer;
-
-}
-
 /* Navigation */
 
 nav {
@@ -105,7 +100,6 @@ nav {
 
 .nav-links a:hover {
   text-decoration: underline;
-  cursor: pointer;
 }
 
 /* Body content */
